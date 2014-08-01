@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADECEDDB198B4688000613BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDA198B4688000613BF /* Foundation.framework */; };
+		ADECEDDD198B4688000613BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDC198B4688000613BF /* CoreGraphics.framework */; };
+		ADECEDDF198B4688000613BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDE198B4688000613BF /* UIKit.framework */; };
+		ADECEDE5198B4688000613BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADECEDE3198B4688000613BF /* InfoPlist.strings */; };
+		ADECEDE7198B4688000613BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEDE6198B4688000613BF /* main.m */; };
+		ADECEDEB198B4688000613BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEDEA198B4688000613BF /* AppDelegate.m */; };
+		ADECEDEE198B4688000613BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADECEDEC198B4688000613BF /* Main.storyboard */; };
+		ADECEDF1198B4688000613BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEDF0198B4688000613BF /* ViewController.m */; };
+		ADECEDF3198B4688000613BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADECEDF2198B4688000613BF /* Images.xcassets */; };
+		ADECEDFA198B4688000613BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDF9198B4688000613BF /* XCTest.framework */; };
+		ADECEDFB198B4688000613BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDA198B4688000613BF /* Foundation.framework */; };
+		ADECEDFC198B4688000613BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDE198B4688000613BF /* UIKit.framework */; };
+		ADECEE04198B4688000613BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADECEE02198B4688000613BF /* InfoPlist.strings */; };
+		ADECEE06198B4688000613BF /* navegarXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEE05198B4688000613BF /* navegarXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADECEDFD198B4688000613BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADECEDCF198B4688000613BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADECEDD6198B4688000613BF;
+			remoteInfo = navegarX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADECEDD7198B4688000613BF /* navegarX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navegarX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADECEDDA198B4688000613BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADECEDDC198B4688000613BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADECEDDE198B4688000613BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADECEDE2198B4688000613BF /* navegarX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navegarX-Info.plist"; sourceTree = "<group>"; };
+		ADECEDE4198B4688000613BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADECEDE6198B4688000613BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADECEDE8198B4688000613BF /* navegarX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "navegarX-Prefix.pch"; sourceTree = "<group>"; };
+		ADECEDE9198B4688000613BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADECEDEA198B4688000613BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADECEDED198B4688000613BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADECEDEF198B4688000613BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADECEDF0198B4688000613BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADECEDF2198B4688000613BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADECEDF8198B4688000613BF /* navegarXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navegarXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADECEDF9198B4688000613BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADECEE01198B4688000613BF /* navegarXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navegarXTests-Info.plist"; sourceTree = "<group>"; };
+		ADECEE03198B4688000613BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADECEE05198B4688000613BF /* navegarXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navegarXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADECEDD4198B4688000613BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEDDD198B4688000613BF /* CoreGraphics.framework in Frameworks */,
+				ADECEDDF198B4688000613BF /* UIKit.framework in Frameworks */,
+				ADECEDDB198B4688000613BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADECEDF5198B4688000613BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEDFA198B4688000613BF /* XCTest.framework in Frameworks */,
+				ADECEDFC198B4688000613BF /* UIKit.framework in Frameworks */,
+				ADECEDFB198B4688000613BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADECEDCE198B4688000613BF = {
+			isa = PBXGroup;
+			children = (
+				ADECEDE0198B4688000613BF /* navegarX */,
+				ADECEDFF198B4688000613BF /* navegarXTests */,
+				ADECEDD9198B4688000613BF /* Frameworks */,
+				ADECEDD8198B4688000613BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADECEDD8198B4688000613BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEDD7198B4688000613BF /* navegarX.app */,
+				ADECEDF8198B4688000613BF /* navegarXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADECEDD9198B4688000613BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEDDA198B4688000613BF /* Foundation.framework */,
+				ADECEDDC198B4688000613BF /* CoreGraphics.framework */,
+				ADECEDDE198B4688000613BF /* UIKit.framework */,
+				ADECEDF9198B4688000613BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADECEDE0198B4688000613BF /* navegarX */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEDE9198B4688000613BF /* AppDelegate.h */,
+				ADECEDEA198B4688000613BF /* AppDelegate.m */,
+				ADECEDEC198B4688000613BF /* Main.storyboard */,
+				ADECEDEF198B4688000613BF /* ViewController.h */,
+				ADECEDF0198B4688000613BF /* ViewController.m */,
+				ADECEDF2198B4688000613BF /* Images.xcassets */,
+				ADECEDE1198B4688000613BF /* Supporting Files */,
+			);
+			path = navegarX;
+			sourceTree = "<group>";
+		};
+		ADECEDE1198B4688000613BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEDE2198B4688000613BF /* navegarX-Info.plist */,
+				ADECEDE3198B4688000613BF /* InfoPlist.strings */,
+				ADECEDE6198B4688000613BF /* main.m */,
+				ADECEDE8198B4688000613BF /* navegarX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADECEDFF198B4688000613BF /* navegarXTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEE05198B4688000613BF /* navegarXTests.m */,
+				ADECEE00198B4688000613BF /* Supporting Files */,
+			);
+			path = navegarXTests;
+			sourceTree = "<group>";
+		};
+		ADECEE00198B4688000613BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADECEE01198B4688000613BF /* navegarXTests-Info.plist */,
+				ADECEE02198B4688000613BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADECEDD6198B4688000613BF /* navegarX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADECEE09198B4688000613BF /* Build configuration list for PBXNativeTarget "navegarX" */;
+			buildPhases = (
+				ADECEDD3198B4688000613BF /* Sources */,
+				ADECEDD4198B4688000613BF /* Frameworks */,
+				ADECEDD5198B4688000613BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = navegarX;
+			productName = navegarX;
+			productReference = ADECEDD7198B4688000613BF /* navegarX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADECEDF7198B4688000613BF /* navegarXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADECEE0C198B4688000613BF /* Build configuration list for PBXNativeTarget "navegarXTests" */;
+			buildPhases = (
+				ADECEDF4198B4688000613BF /* Sources */,
+				ADECEDF5198B4688000613BF /* Frameworks */,
+				ADECEDF6198B4688000613BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADECEDFE198B4688000613BF /* PBXTargetDependency */,
+			);
+			name = navegarXTests;
+			productName = navegarXTests;
+			productReference = ADECEDF8198B4688000613BF /* navegarXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADECEDCF198B4688000613BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joshua;
+				TargetAttributes = {
+					ADECEDF7198B4688000613BF = {
+						TestTargetID = ADECEDD6198B4688000613BF;
+					};
+				};
+			};
+			buildConfigurationList = ADECEDD2198B4688000613BF /* Build configuration list for PBXProject "navegarX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADECEDCE198B4688000613BF;
+			productRefGroup = ADECEDD8198B4688000613BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADECEDD6198B4688000613BF /* navegarX */,
+				ADECEDF7198B4688000613BF /* navegarXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADECEDD5198B4688000613BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEDF3198B4688000613BF /* Images.xcassets in Resources */,
+				ADECEDE5198B4688000613BF /* InfoPlist.strings in Resources */,
+				ADECEDEE198B4688000613BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADECEDF6198B4688000613BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEE04198B4688000613BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADECEDD3198B4688000613BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEDF1198B4688000613BF /* ViewController.m in Sources */,
+				ADECEDEB198B4688000613BF /* AppDelegate.m in Sources */,
+				ADECEDE7198B4688000613BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADECEDF4198B4688000613BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADECEE06198B4688000613BF /* navegarXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADECEDFE198B4688000613BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADECEDD6198B4688000613BF /* navegarX */;
+			targetProxy = ADECEDFD198B4688000613BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADECEDE3198B4688000613BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADECEDE4198B4688000613BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADECEDEC198B4688000613BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADECEDED198B4688000613BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADECEE02198B4688000613BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADECEE03198B4688000613BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADECEE07198B4688000613BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADECEE08198B4688000613BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADECEE0A198B4688000613BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navegarX/navegarX-Prefix.pch";
+				INFOPLIST_FILE = "navegarX/navegarX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADECEE0B198B4688000613BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navegarX/navegarX-Prefix.pch";
+				INFOPLIST_FILE = "navegarX/navegarX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADECEE0D198B4688000613BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/navegarX.app/navegarX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navegarX/navegarX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "navegarXTests/navegarXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADECEE0E198B4688000613BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/navegarX.app/navegarX";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "navegarX/navegarX-Prefix.pch";
+				INFOPLIST_FILE = "navegarXTests/navegarXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADECEDD2198B4688000613BF /* Build configuration list for PBXProject "navegarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADECEE07198B4688000613BF /* Debug */,
+				ADECEE08198B4688000613BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADECEE09198B4688000613BF /* Build configuration list for PBXNativeTarget "navegarX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADECEE0A198B4688000613BF /* Debug */,
+				ADECEE0B198B4688000613BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADECEE0C198B4688000613BF /* Build configuration list for PBXNativeTarget "navegarXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADECEE0D198B4688000613BF /* Debug */,
+				ADECEE0E198B4688000613BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADECEDCF198B4688000613BF /* Project object */;
+}
