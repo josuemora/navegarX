@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)ctrl_reg:(UIStoryboardSegue *)segue{
+    //empty implementation
+}
+
+-(IBAction)btn_salir:(id)sender{
+    exit(0);
+}
+
+
 @end

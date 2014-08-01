@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)ctrl_reg:(UIStoryboardSegue * )segue;
+-(IBAction)btn_salir:(id)sender;
+
 @end

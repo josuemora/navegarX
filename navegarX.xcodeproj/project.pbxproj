@@ -21,6 +21,7 @@
 		ADECEDFC198B4688000613BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADECEDDE198B4688000613BF /* UIKit.framework */; };
 		ADECEE04198B4688000613BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADECEE02198B4688000613BF /* InfoPlist.strings */; };
 		ADECEE06198B4688000613BF /* navegarXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEE05198B4688000613BF /* navegarXTests.m */; };
+		ADECEE11198B47AD000613BF /* Ventana.m in Sources */ = {isa = PBXBuildFile; fileRef = ADECEE10198B47AD000613BF /* Ventana.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		ADECEE01198B4688000613BF /* navegarXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navegarXTests-Info.plist"; sourceTree = "<group>"; };
 		ADECEE03198B4688000613BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADECEE05198B4688000613BF /* navegarXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navegarXTests.m; sourceTree = "<group>"; };
+		ADECEE0F198B47AD000613BF /* Ventana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ventana.h; sourceTree = "<group>"; };
+		ADECEE10198B47AD000613BF /* Ventana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ventana.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				ADECEDEC198B4688000613BF /* Main.storyboard */,
 				ADECEDEF198B4688000613BF /* ViewController.h */,
 				ADECEDF0198B4688000613BF /* ViewController.m */,
+				ADECEE0F198B47AD000613BF /* Ventana.h */,
+				ADECEE10198B47AD000613BF /* Ventana.m */,
 				ADECEDF2198B4688000613BF /* Images.xcassets */,
 				ADECEDE1198B4688000613BF /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADECEDF1198B4688000613BF /* ViewController.m in Sources */,
+				ADECEE11198B47AD000613BF /* Ventana.m in Sources */,
 				ADECEDEB198B4688000613BF /* AppDelegate.m in Sources */,
 				ADECEDE7198B4688000613BF /* main.m in Sources */,
 			);
